@@ -20,13 +20,13 @@ $mail->SMTPSecure = "tls";
 //Port to connect smtp
 $mail->Port = "587";
 //Set gmail username
-$mail->Username = "sadik@gmail.com";
+$mail->Username = "example@gmail.com";
 //Set gmail password
-$mail->Password = "sadik";
+$mail->Password = "example";
 //Email subject
 $mail->Subject = "Confirmation code from Vaccine Registration";
 //Set sender email
-$mail->setFrom("asif@gmail.com");
+$mail->setFrom("example2@gmail.com");
 //Enable HTML
 $mail->isHTML(true);
 
